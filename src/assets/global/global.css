@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    /* 不随窗口改变布局 */
+    min-width: 1349px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.el-select-dropdown.el-popper {
+  z-index: 99999999999 !important;
+}
